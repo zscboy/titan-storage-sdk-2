@@ -2,10 +2,8 @@ module github.com/Filecoin-Titan/titan-storage-sdk
 
 go 1.19
 
-replace github.com/Filecoin-Titan/titan v0.1.10 => github.com/zscboy/titan v0.0.0-20230925032912-91c7ba9ec609
-
 require (
-	github.com/Filecoin-Titan/titan v0.1.10
+	github.com/Filecoin-Titan/titan v0.1.11-0.20231011040445-14fbd619b4af
 	github.com/filecoin-project/go-jsonrpc v0.3.1
 	github.com/ipfs/go-block-format v0.2.0
 	github.com/ipfs/go-cid v0.4.1
